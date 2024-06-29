@@ -109,23 +109,33 @@ display: block;
 
 /* Site Content Wrapper styles */
 .site-content-wrapper {
-    display: grid;
+    display: flex;
+    line-break: strict;
+    align-items: center;
+    vertical-align: middle;
+    padding-right: 40px;
+    justify-content:space-around;
     
 }
 
 .element-wrapper {
     display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    flex-grow: 1;
     
 }
 
 .element-image {
     display: block;
-    
+    height: 260px;
 }
 
 .element-text {
     display: grid;
-    
+    column-gap: 8px;
+    font-size: 15px;
+    row-gap: 2px;
 }
 
 /* Footer Wrapper styles */
