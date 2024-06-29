@@ -81,6 +81,15 @@ padding-right: 40px;
 
 }
 
+.user-access-wrapper {
+    display: flex;
+    line-break: strict;
+    align-items: center;
+    vertical-align: middle;
+    padding-right: 40px;
+    justify-content: space-between;
+    
+    }
 
 /* Theme Wrapper styles */
 .theme-wrapper {
