@@ -93,9 +93,19 @@ padding-right: 40px;
 
 /* Theme Wrapper styles */
 .theme-wrapper {
-    
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    justify-content:space-around;
+    row-gap: 32px;
     
   }
+
+.theme-content {
+display: block;
+
+
+}
 
 /* Site Content Wrapper styles */
 .site-content-wrapper {
