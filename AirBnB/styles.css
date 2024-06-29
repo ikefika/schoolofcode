@@ -136,10 +136,19 @@ display: block;
     column-gap: 8px;
     font-size: 15px;
     row-gap: 2px;
+    
 }
 
 /* Footer Wrapper styles */
 .footer-wrapper {
+    display: flex;
+    height: 88px;
+    max-width: 2520px;
+    padding-bottom: 14px;
+    padding-inline-end: 40px;
+    padding-inline-start: 40px;
+    padding-top: 13px;
     
-    
+    align-items: center;
+    vertical-align: middle;
 }
