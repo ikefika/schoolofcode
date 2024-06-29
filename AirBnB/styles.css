@@ -109,7 +109,22 @@ display: block;
 
 /* Site Content Wrapper styles */
 .site-content-wrapper {
+    display: grid;
     
+}
+
+.element-wrapper {
+    display: flex;
+    
+}
+
+.element-image {
+    display: block;
+    
+}
+
+.element-text {
+    display: grid;
     
 }
 
